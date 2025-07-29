@@ -30,3 +30,7 @@ dig google.com
 - **+short:** Obter só a resposta curta;
 - **+trace:** Ver a cadeia de resolução;
 - **dig -x 8.8.8.8:** Se você tem o IP e quer saber o domínio;
+
+### **git commands:**
+
+- git mv 'antigo' 'novo' -> 'move', usado para renomear arquivo
