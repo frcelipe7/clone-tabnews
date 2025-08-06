@@ -3,7 +3,7 @@ import database from "infra/database.js";
 async function status(request, response) {
   const updatedAt = new Date().toISOString();
 
-  const responseVerson = await database.query("SHOW server_version");
+  const responseVerson = await database.query("SHOW server_version;");
   const version = responseVerson.rows[0].server_version;
 
   const responseMaxConnections = await database.query("SHOW max_connections;");
